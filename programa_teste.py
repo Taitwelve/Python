@@ -3,7 +3,7 @@ valor2 = input("Digite o segundo valor: ")
 soma = int(valor1) + int(valor2)
 print("A soma é {}.".format(soma))
 #------------------------------------------------------------
-Calculadora 
+#Calculadora 
 valor1 = input("Por favor, digite o primeiro valor: ")
 valor2 = input("Por favor, digite o segundo valor: ")
 soma = float(valor1) + float(valor2)

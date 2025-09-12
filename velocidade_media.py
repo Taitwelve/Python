@@ -1,0 +1,5 @@
+print("Esse programa é um calculador de velocidade média")
+distancia = input("Qual foi a distância em metros percorrida? ")
+tempo = input("Quantos minutos você demorou para percorrer essa distância? ")
+velocidade_media = float(distancia) / float(tempo)
+print("Você atingiu uma velocidade de {0:.2f} m/min".format(velocidade_media))
