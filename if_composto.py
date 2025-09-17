@@ -1,7 +1,10 @@
-nome = input("Digite o nome do(a) aluno(a): ")
-idade = int(input("Digite a idade do(a) aluno(a): "))
-
-if idade < 18:
-    print(f"{nome} é menor de idade. Consultar responsável.")
+pontuacao = input("Insira a pontuação do cliente: ")
+pontuacao = int(pontuacao)
+if pontuacao >= 1000:
+    print("O cliente tem direito a receber mais 3gb na sua franquia de internet!")
+elif pontuacao >=500:
+     print("O cliente tem direito a receber mais 1,5gb na sua franquia de internet!")
+elif pontuacao >=200:
+     print("O cliente tem direito a receber mais 500mb na sua franquia de internet!")
 else:
-    print(f"{nome} é maior de idade. Não é necessário consultar responsável.")
+     print("O cliente não receberá bônus.")        
