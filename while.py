@@ -8,3 +8,8 @@ i = 0
 while (i < 10):
     print(f"Mais uma repetição! Dessa vez o i vale: {i}")
     i += 1
+
+numero = 1
+while numero%2 == 1:
+    numero = int(input("Digite um número par: "))
+print(f"Obrigado por digitar o número {numero}, que é par!")    
