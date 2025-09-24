@@ -2,3 +2,9 @@ resposta = "0"
 while (resposta != "42"):
     resposta = input("Qual a resposta para a vida, o universo e tudo mais? ")
 print("Parabéns, você acertou!")
+
+
+i = 0
+while (i < 10):
+    print(f"Mais uma repetição! Dessa vez o i vale: {i}")
+    i += 1
