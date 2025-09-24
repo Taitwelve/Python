@@ -13,3 +13,11 @@ numero = 1
 while numero%2 == 1:
     numero = int(input("Digite um número par: "))
 print(f"Obrigado por digitar o número {numero}, que é par!")    
+
+
+n = int(input("Digite o número que você quer a tabuada: "))
+i = 0
+while i <= 10:
+    print(f"{n} x {i} = {n*i}")
+    i += 1
+print("Fim da tabuada! Espero ter ajudado! Bons estudos ☺️")
