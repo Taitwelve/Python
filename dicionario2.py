@@ -8,3 +8,7 @@ dicionario[nome_colaborador] = cargo_colaborador
 for nome, cargo in dicionario.items():
     print (f"O colaborador {nome} exerce o cargo de {cargo}")
 
+dicionario ["Taiane Nascimento"] = "Desenvolvedora Full Stack"
+
+for nome, cargo in dicionario.items():
+    print (f"O colaborador {nome} exerce o cargo de {cargo}")
